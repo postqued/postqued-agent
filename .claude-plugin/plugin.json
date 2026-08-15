@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "postqued",
+  "displayName": "Postqued",
+  "version": "1.0.0",
+  "description": "Manage, schedule, review, publish, and analyze social media through Postqued.",
+  "author": {
+    "name": "Postqued",
+    "url": "https://postqued.com"
+  },
+  "homepage": "https://postqued.com/mcp",
+  "repository": "https://github.com/syeddhasnainn/postqued-agent",
+  "license": "MIT",
+  "keywords": [
+    "social-media",
+    "publishing",
+    "scheduling",
+    "analytics",
+    "collaboration"
+  ],
+  "defaultEnabled": false,
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Postqued API key",
+      "description": "Organization-bound API key created in Postqued Settings → API.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
