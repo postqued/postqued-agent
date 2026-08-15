@@ -9,7 +9,7 @@
     "url": "https://postqued.com"
   },
   "homepage": "https://postqued.com/mcp",
-  "repository": "https://github.com/syeddhasnainn/postqued-agent",
+  "repository": "https://github.com/postqued/postqued-agent",
   "license": "MIT",
   "keywords": [
     "social-media",

@@ -29,7 +29,7 @@ Never paste your API key into a conversation or commit it to source control.
 ### Test from this repository
 
 ```sh
-git clone https://github.com/syeddhasnainn/postqued-agent.git
+git clone https://github.com/postqued/postqued-agent.git
 claude --plugin-dir ./postqued-agent
 ```
 
