@@ -1,0 +1,15 @@
+{
+  "name": "postqued",
+  "displayName": "Postqued",
+  "version": "1.0.0",
+  "description": "Plan, approve, schedule, publish, and analyze social media through Postqued's hosted MCP server.",
+  "author": {
+    "name": "Postqued",
+    "email": "hello@postqued.com"
+  },
+  "homepage": "https://postqued.com/mcp",
+  "repository": "https://github.com/postqued/postqued-agent",
+  "license": "MIT",
+  "keywords": ["postqued", "social-media", "publishing", "scheduling", "analytics", "mcp"],
+  "logo": "assets/postqued.svg"
+}

@@ -4,6 +4,7 @@ Official Postqued plugins for AI agents. Plan, upload, schedule, publish, review
 
 - The repository root contains the Claude plugin.
 - [`grok/`](grok/) contains the Grok Build plugin, which uses Postqued OAuth.
+- [`cursor/`](cursor/) contains the Cursor plugin, which uses Postqued OAuth.
 
 ## Postqued for Claude
 

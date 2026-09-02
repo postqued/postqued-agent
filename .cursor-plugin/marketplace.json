@@ -1,0 +1,18 @@
+{
+  "name": "postqued-agent-plugins",
+  "owner": {
+    "name": "Postqued",
+    "email": "hello@postqued.com"
+  },
+  "metadata": {
+    "description": "Official Postqued plugins for AI agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "postqued",
+      "source": "./cursor",
+      "description": "Plan, approve, schedule, publish, and analyze social media through Postqued's hosted MCP server."
+    }
+  ]
+}
