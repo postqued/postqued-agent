@@ -1,4 +1,4 @@
-name: Validate Claude plugin
+name: Validate agent plugins
 
 on:
   pull_request:
@@ -20,4 +20,10 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
-      - run: pnpm dlx @anthropic-ai/claude-code@latest plugin validate . --strict
+      - name: Validate Claude plugin
+        run: pnpm dlx @anthropic-ai/claude-code@latest plugin validate . --strict
+      - name: Validate Cursor plugin
+        run: |
+          git clone --quiet https://github.com/cursor/plugin-template.git "$RUNNER_TEMP/cursor-plugin-template"
+          git -C "$RUNNER_TEMP/cursor-plugin-template" checkout --quiet 46216072ac5750f782f95bb325b4d12b7c3ae9c9
+          node "$RUNNER_TEMP/cursor-plugin-template/scripts/validate-template.mjs"
