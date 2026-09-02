@@ -1,6 +1,11 @@
-# Postqued for Claude
+# Postqued agent plugins
 
-The official Postqued plugin for Claude. Plan, upload, schedule, publish, review, and analyze social media without leaving your conversation.
+Official Postqued plugins for AI agents. Plan, upload, schedule, publish, review, and analyze social media without leaving your agent workflow.
+
+- The repository root contains the Claude plugin.
+- [`grok/`](grok/) contains the Grok Build plugin, which uses Postqued OAuth.
+
+## Postqued for Claude
 
 Postqued connects Claude to the first-party Postqued MCP server and provides guidance for safe publishing, approval workflows, engagement, and account management.
 
